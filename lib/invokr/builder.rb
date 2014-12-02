@@ -24,7 +24,6 @@ module Invokr
 
     def build
       handle_args!
-      check_for_unused_args!
       check_for_missing_args!
       build_invocation
     end
